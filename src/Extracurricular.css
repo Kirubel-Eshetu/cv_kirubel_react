@@ -1,0 +1,50 @@
+.extraContainer {
+    margin-left: 5vw;
+    display: flex;
+    width: 95%;
+}
+
+.extraContainer .extraleft {
+    width: 60vw;
+}
+
+.extraContainer p {
+    font-size: 1.5vw;
+}
+
+.extraContainer .extraright {
+    margin-left: 2vw;
+}
+
+.extraContainer .extraright .ptop {
+    text-align: justify;
+    margin-top: 1.2vw;
+}
+
+.extraContainer .extraright .pbottom {
+    text-align: justify;
+    margin-top: 3.0vw;
+}
+
+@media (max-width: 768px) {
+    .mainContainer .extraContainer .extraright {
+        margin-right: 5vw;
+        margin-left: 6vw;
+    }
+
+    .mainContainer .extraContainer .extraright .ptop {
+        margin-top: 4.8vw;
+    }
+
+    .mainContainer .extraContainer .extraright .pbottom {
+        margin-top: 5vw;
+    }
+
+    .mainContainer .extraContainer .extraleft p {
+        font-size: 4.8vw;
+    }
+
+    .mainContainer .extraContainer .extraright p {
+        font-size: 4.8vw;
+    }
+}
