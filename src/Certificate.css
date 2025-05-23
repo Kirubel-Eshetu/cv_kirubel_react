@@ -2,7 +2,9 @@
     margin-left: 5vw;
     display: flex;
 }
-
+.certleft p{
+    font-size: 1.5vw;
+}
 .italic {
     font-size: 1.3vw;
 }
@@ -28,24 +30,39 @@
     margin-left: 5vw;
 }
 
-.certContainer .certright .dataanalysis,
-.andriod,
-.programming,
-.ison,
-.evasue {
-    margin-top: 1.2vw;
+.certContainer .certright .dataanalysis {
+    margin-top: 1.4vw;
 }
 
+.certContainer .certright .andriod,
+.programming,
+.evasue{
+    margin-top: 2vw;
+}
+
+.certContainer .certright .ison{
+    margin-top: 2.4vw;
+}
+
+
 .certContainer .certright .dereja {
-    margin-top: 3vw;
+    margin-top: 3.5vw;
+}
+
+.certContainer .certright .coding1 {
+    margin-top: 2.5vw;
 }
 
 .certContainer .certright .coding2 {
-    margin-top: 3.1vw;
+    margin-top: 3.7vw;
 }
 
 .certContainer .certright .coding3 {
-    margin-top: 3.2vw;
+    margin-top: 4.0vw;
+}
+
+.certContainer .certright .space {
+    margin-top: 2.1vw;
 }
 
 @media (max-width: 768px) {
@@ -88,7 +105,11 @@
     }
 
     .certContainer .certright .programming {
-        margin-top: 8vw;
+        margin-top: 7.3vw;
+    }
+
+    .certContainer .certright .ison {
+        margin-top: 12vw;
     }
 
     .certContainer .certright .evasue {
@@ -107,11 +128,7 @@
         margin-top: 8vw;
     }
 
-    .certContainer .certright .coding3 {
-        margin-top: 8vw;
-    }
-
-    .certContainer .certright .space {
-        margin-top: 5.5vw;
+    .certContainer .certright .coding3, .certContainer .certright .space {
+        margin-top: 7.5vw;
     }
 }

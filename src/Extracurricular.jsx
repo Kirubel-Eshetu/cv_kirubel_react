@@ -5,7 +5,7 @@ function Extracurricular(){
     return(
         <div className="extraContainer">
                 <div className="extraleft">
-                    <p> Oct 2023 - Feb 2024
+                    <p className="fellow"> Oct 2023 - Feb 2024
                         <strong>Content creator and
                             Social media
                             manager</strong>

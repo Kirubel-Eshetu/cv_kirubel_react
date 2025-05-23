@@ -27,10 +27,14 @@
         margin: 0;
         padding: 0;
     }
-    
+
     .mainContainer {
         margin: 0 auto;
         width: 90%;
     }
-  
+
+    .mainContainer h3 {
+        font-size: 8vw;
+    }
+
 }
