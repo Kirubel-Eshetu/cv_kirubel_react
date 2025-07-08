@@ -2,11 +2,14 @@ import React from "react";
 import "./Footer.css";
 
 function Footer() {
+    const date = new Date();
+    const year = date.getFullYear();
+
     return (
         <footer>
             <div class="footerdiv">
-                <p>This CV was created by Kirubel Eshetu</p>
-                <p>All rights revieved 2025</p>
+                <p> &copy; Kirubel Eshetu Tefera</p>
+                <p>All rights received {year}</p>
             </div>
         </footer>
     )

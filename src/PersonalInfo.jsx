@@ -5,7 +5,6 @@ function PersonalInfo() {
     return (<div className="personalInfo">
         <img src="KET.jpg" alt="Kirubel Eshetu Tefera" className="imageKET" />
         <h2 className="h2personal">Personal Information</h2>
-        <p className="personal">Age: <strong>23</strong></p>
         <p className="personal">Gender: <strong>Male</strong></p>
         <hr />
         <h2 className="contact">Contact</h2>
